@@ -1,0 +1,23 @@
+Last login: Mon Jun 15 08:16:57 on ttys000
+-bash: ee: command not found
+(base) ovandoworkbook:4DFenrus apple$ cd /Users/apple/Documents/coding/Courses/codeacademy/WebDevelopment/3.JavaScript/
+(base) ovandoworkbook:3.JavaScript apple$ node --version
+v14.0.0
+(base) ovandoworkbook:3.JavaScript apple$ node sleepDebtCalculator.js 
+/Users/apple/Documents/coding/Courses/codeacademy/WebDevelopment/3.JavaScript/sleepDebtCalculator.js:3
+cconst getSleepHours = day => {
+       ^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:1101:16)
+    at Module._compile (internal/modules/cjs/loader.js:1149:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1205:10)
+    at Module.load (internal/modules/cjs/loader.js:1034:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:923:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47
+(base) ovandoworkbook:3.JavaScript apple$ node sleepDebtCalculator.js 
+Hours of sleep on Tuesday: 7
+Hours of sleep all week: 48
+You need more rest buddy. You did not get enough sleep all week, the ideal value is 56 hr per week.
+(base) ovandoworkbook:3.JavaScript apple$ 
