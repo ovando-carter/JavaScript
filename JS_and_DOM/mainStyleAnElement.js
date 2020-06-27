@@ -1,0 +1,1 @@
+document.body.style.backgroundColor = '#201F2E'; // This is how we style the background colour of the body in the blog-post.
