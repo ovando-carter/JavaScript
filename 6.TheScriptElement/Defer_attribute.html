@@ -1,0 +1,15 @@
+<!DOCTYPE html> 
+<html>
+ 
+  <head>
+  	<link rel="stylesheet" href="DeferAttributeStyle.css">
+  	<!--  Add the defer attribute to the script below:  -->
+  	<script id="blue" src="DeferAttributeTurnBlue.js" defer></script> <!-- this loads the script but defers the execution of the script until after it finishes parsing the rest of the element in the HTML -->
+  </head>
+
+  <body>		
+  	<p class="centered" id="logo">Codecademy</p>
+
+  	<script id="yellow" src="DeferAttributeTurnYellow.js"></script>
+  </body>
+</html>
